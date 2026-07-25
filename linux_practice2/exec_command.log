@@ -1,4 +1,4 @@
-root@bcf2f6929006:~/server_lesson/linux_practice2# history 300
+root@bcf2f6929006:~/server_lesson/linux_practice2/trash# history 300
     1  cd /root
     2  mkdir server_lesson && server_lesson
     3  apt update -y && apt install -y git
@@ -52,3 +52,64 @@ root@bcf2f6929006:~/server_lesson/linux_practice2# history 300
    51  vi .gitignore 
    52  cat .gitignore 
    53  history 300
+   54  exec_command.log
+   55  touch exec_command.log
+   56  vi exec_command.log 
+   57  cat exec_command.log 
+   58  ls
+   59  git status
+   60  cd ..
+   61  git status
+   62  git add .
+   63  git commit -m 'first commit'
+   64  git config --global user.email "OZbin_0O@icloud.com"
+   65    git config --global user.name "eguchi333"
+   66  git commit -m 'first commit'
+   67  ls
+   68  ls linux_practice2
+   69  ls -a linux_practice2
+   70  git log
+   71  git remote origin https://github.com/eguchi333/linux_practice.git
+   72  git remote add origin https://github.com/eguchi333/linux_practice.git
+   73  git remote -v
+   74  git push origin main
+   75  git log
+   76  git push origin master
+   77  ls
+   78  cd linux_practice2
+   79  ls
+   80  ls -a
+   81  vi .gitignore
+   82  git status
+   83  git add .
+   84  git commit
+   85  git log
+   86  git add .
+   87  git commit -m 'first commit'
+   88  git push origin master
+   89  vi .gitignore
+   90  git rm --cached gizumo20.md
+   91  ls
+   92  vi .gitignore
+   93  cd ..
+   94  git remote add origin https://github.com/eguchi333/linux_practice.git
+   95  git status
+   96  git add .
+   97  git commit -m 'first commit'
+   98  git push origin master
+   99  git log
+  100  git check-ignore -v index2[0-9].md
+  101  git status --ignored
+  102  git rm --cached index2*.md
+  103  git rm --cached gizumo2*.md
+  104  ls
+  105  ls linux_practice2
+  106  cd linux_practice2
+  107  cd trash
+  108  git rm --cached gizumo2*ls.md
+  109  git rm --cached gizumo2*.md
+  110  git status
+  111  git commit -m 'first commit'
+  112  git push origin master
+  113  git push origin master
+  114  history 300
